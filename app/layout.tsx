@@ -7,8 +7,8 @@ import Footer from "../components/Footer";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Alatyon General Hospital",
-  description: "Modern healthcare services at Alatyon General Hospital",
+  title: "Diredawa ras hotel",
+  description: "Modern ",
 };
 
 export default function RootLayout({
@@ -19,9 +19,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <Navbar />
         <main>{children}</main>
-        <Footer />
       </body>
     </html>
   );
